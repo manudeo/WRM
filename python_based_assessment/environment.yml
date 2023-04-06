@@ -1,4 +1,4 @@
-name: imd
+name: xarray
 channels:
   - plotly
   - anaconda
@@ -412,4 +412,4 @@ dependencies:
     - widgetsnbextension==4.0.5
     - xshape==0.1.1
     - zope-interface==5.5.2
-prefix: /home/msingh/miniconda3/envs/imd
+prefix: ~/miniconda3/envs/xarray
