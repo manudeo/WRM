@@ -375,6 +375,7 @@ dependencies:
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h6239696_4
   - pip:
+    - imdlib==0.1.16
     - affine==2.3.1
     - cachetools==5.2.1
     - dask-image==2022.9.0
@@ -386,8 +387,7 @@ dependencies:
     - geopy==2.3.0
     - greenlet==2.0.1
     - hdstats==0.2.1
-    - imageio==2.23.0
-    - imdlib==0.1.14
+    - imageio==2.23.0    
     - ipyleaflet==0.17.2
     - ipywidgets==8.0.4
     - jupyter-ui-poll==0.2.2
