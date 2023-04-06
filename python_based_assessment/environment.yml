@@ -7,7 +7,9 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - affine=2.4.0=pyhd8ed1ab_0
   - alsa-lib=1.2.7.2=h166bdaf_0
+  - altair=4.2.2=pyhd8ed1ab_0
   - anyio=3.6.1=pyhd8ed1ab_1
   - appdirs=1.4.4=pyhd3eb1b0_0
   - argon2-cffi=21.3.0=pyhd8ed1ab_0
@@ -48,6 +50,7 @@ dependencies:
   - cloudpickle=2.2.0=pyhd8ed1ab_0
   - colorama=0.4.6=pyhd8ed1ab_0
   - colorcet=3.0.1=pyhd8ed1ab_0
+  - contextily=1.3.0=pyhd8ed1ab_0
   - contourpy=1.0.5=py38h43d8883_0
   - cryptography=38.0.2=py38h2b5fc30_0
   - curl=7.86.0=h7bff187_1
@@ -91,8 +94,10 @@ dependencies:
   - freexl=1.0.6=h166bdaf_1
   - fsspec=2022.3.0=py38h06a4308_0
   - gdal=3.5.3=py38h1f15b03_0
+  - geographiclib=1.52=pyhd8ed1ab_0
   - geopandas=0.12.1=pyhd8ed1ab_0
   - geopandas-base=0.12.1=pyha770c72_0
+  - geopy=2.3.0=pyhd8ed1ab_0
   - geos=3.11.0=h27087fc_0
   - geotiff=1.7.1=ha76d385_4
   - geoviews=1.9.6=pyhd8ed1ab_0
@@ -208,6 +213,7 @@ dependencies:
   - matplotlib=3.6.1=py38h578d9bd_0
   - matplotlib-base=3.6.1=py38hb021067_0
   - matplotlib-inline=0.1.6=pyhd8ed1ab_0
+  - mercantile=1.2.1=pyhd8ed1ab_0
   - mistune=2.0.4=pyhd8ed1ab_0
   - mpg123=1.30.2=h27087fc_1
   - msgpack-python=1.0.3=py38hd09550d_0
@@ -236,7 +242,7 @@ dependencies:
   - numpy=1.23.4=py38h7042d01_0
   - openjpeg=2.5.0=h7d73246_1
   - openpyxl=3.0.10=py38h5eee18b_0
-  - openssl=1.1.1s=h0b41bf4_1
+  - openssl=1.1.1t=h0b41bf4_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandas=1.5.0=py38h8f669ce_0
   - pandoc=2.19.2=ha770c72_0
@@ -297,8 +303,10 @@ dependencies:
   - pyyaml=6.0=py38h0a891b7_5
   - pyzmq=24.0.1=py38hfc09fa9_0
   - qt-main=5.15.6=hc525480_0
+  - rasterio=1.3.3=py38hb7ee17c_3
   - readline=8.1.2=h0f457ee_0
   - requests=2.28.1=pyhd8ed1ab_1
+  - rioxarray=0.13.3=pyhd8ed1ab_0
   - rtree=1.0.1=py38h02d302b_1
   - scikit-learn=1.1.3=py38h4c4ba11_1
   - scipy=1.9.3=py38h8ce737c_1
@@ -375,41 +383,9 @@ dependencies:
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.2=h6239696_4
   - pip:
-    - imdlib==0.1.16
-    - affine==2.3.1
-    - cachetools==5.2.1
-    - dask-image==2022.9.0
-    - datacube==1.8.9
-    - datetime==4.9
-    - deafrica-tools==1.0.1
-    - geoalchemy2==0.12.5
-    - geographiclib==2.0
-    - geopy==2.3.0
-    - greenlet==2.0.1
-    - hdstats==0.2.1
-    - imageio==2.23.0    
-    - ipyleaflet==0.17.2
-    - ipywidgets==8.0.4
-    - jupyter-ui-poll==0.2.2
-    - jupyterlab-widgets==3.0.5
-    - lark==1.1.5
-    - numexpr==2.8.4
-    - odc-algo==0.2.3
-    - odc-ui==0.2.1.dev3614
-    - owslib==0.27.2
-    - pims==0.6.1
-    - psycopg2==2.9.5
-    - pywavelets==1.4.1
-    - rasterio==1.3.2
-    - rasterstats==0.17.0
-    - rioxarray==0.12.2
-    - scikit-image==0.19.3
-    - simplejson==3.18.1
-    - slicerator==1.1.0
-    - sqlalchemy==1.4.46
-    - tifffile==2022.10.10
-    - traittypes==0.2.1
-    - widgetsnbextension==4.0.5
-    - xshape==0.1.1
-    - zope-interface==5.5.2
+      - imdlib==0.1.15
+      - parameterized==0.8.1
+      - patsy==0.5.3
+      - statsmodels==0.13.5
+      - xmca==1.4.2.post2
 prefix: ~/miniconda3/envs/xarray
