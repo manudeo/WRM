@@ -1,7 +1,12 @@
-# Spatial data assessment
+# Water resource management using spatial data assessment
 
-Files and documentation for tutorials on spatial data assessment using GEE and python-based packages. 
+Files and documentation for tutorials on spatial data assessment using GEE and python-based packages.
 
-1. Two-day workshop at IIT Kanpur (6-7 April 2023): Introduction to Spatial Data Assessment 
-2. Five-day workshop at IISER Pune (10-14 April 2023): Spatial Data Assessment 
-    Schedule for IISER-P at https://github.com/manudeo/Spatial_data_assessment/blob/main/IISER-P_Workshop.pdf 
+Five-day workshop at IISER Pune (1-5 April 2024): Spatial Data Assessment 
+
+Course outline:
+Day 1: Introduction to water resource management approaches and introductory hands-on GEE
+Day 2: Finding waterbodies and their status: Time series analysis in GEE
+Day 3: Finding waterbodies and their status: Time series analysis in Python (xarray)
+Day 4: Wetland cover type: GEE and Python implementation
+Day 5: Project presentations
