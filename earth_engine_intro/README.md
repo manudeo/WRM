@@ -6,8 +6,6 @@
     
     data catalogue: https://developers.google.com/earth-engine/datasets
 
-## Alternative to GEE: 
-https://land.copernicus.eu/global/virtual-machine-desktop
 
 ## Getting help: 
 
