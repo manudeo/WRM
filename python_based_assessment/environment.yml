@@ -138,6 +138,7 @@ dependencies:
   - jupyter_core=4.11.1=py38h578d9bd_0
   - jupyter_server=1.21.0=pyhd8ed1ab_0
   - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0
+  - jupyterlab
   - kealib=1.4.15=ha7026e8_1
   - keyutils=1.6.1=h166bdaf_0
   - kiwisolver=1.4.4=py38h43d8883_0
